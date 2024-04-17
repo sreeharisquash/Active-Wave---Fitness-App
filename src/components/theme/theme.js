@@ -1,0 +1,38 @@
+const theme = {
+  light: {
+    theme: "light",
+    grey:"white",
+    greyTabs:"#EEEEEE",
+    redorWhite:"#C1063D",
+    color: "black",
+    background: "white",
+    whiteorBlack:"black",
+    tabactive: "#0300AA",
+    tabInactive: "black",
+    popupContain: "grey",
+    forgotPassBg: "lightgrey",
+    coloring: "#0300AA",
+    coloringViceVersa: "#FF6B00",
+    fontLight: "#474747CC",
+    dropdownBg: "white",
+  },
+  dark: {
+    theme: "dark",
+    grey:"#222222",
+    greyTabs:"#222222",
+    redorWhite:"white",
+    whiteorBlack:"white",
+    color: "white",
+    background: "black",
+    tabactive: "orange",
+    tabInactive: "white",
+    popupContain: "black",
+    forgotPassBg: "black",
+    coloring: "#FF6B00",
+    coloringViceVersa: "#0300AA",
+    fontLight: "white",
+    dropdownBg: "white",
+  },
+};
+
+export default theme;
